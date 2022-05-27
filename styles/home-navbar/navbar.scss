@@ -1,0 +1,39 @@
+@import "../variables/variables.scss";
+
+.home-navbar {
+  display: flex;
+  border: 1px solid orange;
+  justify-content: space-between;
+  align-items: center;
+  // width: 100%;
+  grid-area: 1/1/1/4;
+  .hn-left {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+
+    .hestia a {
+      color: red;
+
+      &:hover {
+        background: brown;
+      }
+    }
+  }
+
+  .hn-right {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+
+    .hn-right-item {
+      padding: 10px 20px;
+    }
+
+    button.more {
+      background-color: $hestia-pink;
+    }
+  }
+}
