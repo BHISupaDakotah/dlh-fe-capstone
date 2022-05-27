@@ -1,9 +1,10 @@
 .home-navbar {
+  color: black;
   display: flex;
-  border: 1px solid orange;
   justify-content: space-between;
   align-items: center;
   grid-area: 1/1/1/4;
+  font-size: 12px;
 }
 .home-navbar .hn-left {
   display: flex;
@@ -12,10 +13,12 @@
   align-items: center;
 }
 .home-navbar .hn-left .hestia a {
-  color: red;
+  color: #555;
+  font-size: 18px;
 }
 .home-navbar .hn-left .hestia a:hover {
-  background: brown;
+  color: #959595;
+  transition: ease 0.5em;
 }
 .home-navbar .hn-right {
   display: flex;
@@ -23,9 +26,21 @@
   justify-content: center;
   align-items: center;
 }
-.home-navbar .hn-right .hn-right-item {
+.home-navbar .hn-right .hn-right-item a {
   padding: 10px 20px;
 }
+.home-navbar .hn-right .hn-right-item a:hover {
+  color: #e91e63;
+}
 .home-navbar .hn-right button.more {
+  font-size: 12px;
+  color: white;
+  border: transparent;
   background-color: #e91e63;
+  padding: 18px 25px;
+  border-radius: 25px;
+}
+.home-navbar .hn-right button.more:hover {
+  filter: blur(1px);
+  transition: ease-in;
 }/*# sourceMappingURL=navbar.css.map */

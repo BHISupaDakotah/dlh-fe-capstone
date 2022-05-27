@@ -1,12 +1,22 @@
 @import "../variables/variables.scss";
 
 .home-navbar {
+  color: black;
   display: flex;
-  border: 1px solid orange;
   justify-content: space-between;
   align-items: center;
-  // width: 100%;
   grid-area: 1/1/1/4;
+  font-size: 12px;
+
+  // &::before {
+  //   background-color: transparent;
+  //   color: $hestia-white;
+  // }
+
+  // &::after {
+  //   background-color: $hestia-white;
+  // }
+
   .hn-left {
     display: flex;
     width: 50%;
@@ -14,10 +24,12 @@
     align-items: center;
 
     .hestia a {
-      color: red;
+      color: $hestia-grey;
+      font-size: 18px;
 
       &:hover {
-        background: brown;
+        color: lighten($color: $hestia-grey, $amount: 25%);
+        transition: ease 0.5em;
       }
     }
   }
@@ -28,12 +40,26 @@
     justify-content: center;
     align-items: center;
 
-    .hn-right-item {
+    .hn-right-item a {
       padding: 10px 20px;
+
+      &:hover {
+        color: $hestia-pink;
+      }
     }
 
     button.more {
+      font-size: 12px;
+      color: white;
+      border: transparent;
       background-color: $hestia-pink;
+      padding: 18px 25px;
+      border-radius: 25px;
+
+      &:hover {
+        filter: blur(1px);
+        transition: ease-in;
+      }
     }
   }
 }

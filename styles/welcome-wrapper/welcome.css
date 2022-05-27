@@ -1,5 +1,18 @@
-.welcome-wrapper {
+.home-wrapper .welcome-wrapper {
+  background-image: url("/images/mnts.jpeg");
+  background-size: cover;
+  background-position: 25% 60%;
+  width: 100%;
   display: flex;
-  border: 1px solid purple;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   grid-area: 2/1/2/4;
+}
+.home-wrapper .welcome-wrapper .welcome-header {
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 900;
+  margin-bottom: 50px;
 }/*# sourceMappingURL=welcome.css.map */
