@@ -1,12 +1,58 @@
-.floating-body {
+@import "../variables/variables.scss";
+
+.we-stand-wrapper {
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
-  position: relative;
-  background-color: white;
-  // grid-area: 3/1/3/4;
-  border: 1px solid white;
-  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.4);
-  margin: -70px 15px 0px 15px;
+  width: 100%;
+
+  .we-stand-header {
+    font-family: "Roboto", sans-serif;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: larger;
+  }
+
+  .we-stand-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0 100px 0;
+  }
+
+  .block-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+    .cube {
+      color: $hestia-pink;
+      font-size: 50px;
+    }
+
+    .square {
+      color: lightblue;
+      font-size: 50px;
+    }
+
+    .lines {
+      color: green;
+      font-size: 50px;
+    }
+
+    .section-title {
+      font-family: "Roboto Slab", "Times New Roman", serif;
+      color: $hestia-black;
+      margin: 20px 10px;
+      font-weight: 550;
+      font-size: 20px;
+    }
+
+    .section-words {
+      color: #999;
+      font-size: 14px;
+    }
+  }
 }

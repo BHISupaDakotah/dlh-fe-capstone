@@ -16,6 +16,6 @@ a {
 .home-wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 0.75fr 6fr;
+  grid-template-rows: 0.18fr 2fr;
   height: 100%;
 }/*# sourceMappingURL=home-wrapper.css.map */

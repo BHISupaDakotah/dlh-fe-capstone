@@ -1,7 +1,7 @@
 .home-wrapper .welcome-wrapper {
   background-image: url("/images/mnts.jpeg");
   background-size: cover;
-  background-position: 25% 60%;
+  background-position: 25% 90%;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -10,9 +10,28 @@
   grid-area: 2/1/2/4;
 }
 .home-wrapper .welcome-wrapper .welcome-header {
+  font-family: "Roboto", sans-serif;
   color: white;
   text-align: center;
-  font-size: 60px;
+  font-size: 67px;
   font-weight: 900;
-  margin-bottom: 50px;
+}
+.home-wrapper .welcome-wrapper .welcome-title {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 25px;
+  margin-bottom: 65px;
+}
+.home-wrapper .welcome-wrapper .welcome-button {
+  background-color: #e91e63;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 15px 33px;
+  border: none;
+  border-radius: 5px;
+}
+.home-wrapper .welcome-wrapper .welcome-button:hover {
+  cursor: pointer;
 }/*# sourceMappingURL=welcome.css.map */

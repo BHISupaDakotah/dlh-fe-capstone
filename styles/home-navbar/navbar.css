@@ -43,4 +43,5 @@
 .home-navbar .hn-right button.more:hover {
   filter: blur(1px);
   transition: ease-in;
+  cursor: pointer;
 }/*# sourceMappingURL=navbar.css.map */
