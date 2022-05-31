@@ -1,5 +1,29 @@
 .about-hestia-wrapper {
   display: flex;
-  border: 1px dashed orange;
-  grid-area: 4/1/4/4;
+  width: 100.1%;
+  background-image: url("https://wp-themes.com/wp-content/themes/hestia/assets/img/contact.jpg");
+  background-size: cover;
+  background-position: 25% 50%;
+  color: white;
+  justify-content: space-between;
+}
+.about-hestia-wrapper .ab-hes-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.about-hestia-wrapper .ab-hes-left .ab-title {
+  font-size: xx-large;
+  padding-right: 27%;
+  font-weight: 400;
+  padding-bottom: 1.5%;
+  font-family: "Roboto Slab", serif;
+}
+.about-hestia-wrapper .ab-hes-right {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  padding: 3%;
 }/*# sourceMappingURL=about.css.map */

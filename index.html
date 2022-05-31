@@ -15,6 +15,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Dancing+Script:wght@600&family=Nunito:wght@300&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Roboto+Flex:opsz,wght@8..144,100;8..144,300&family=Roboto+Slab&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
       href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Dancing+Script:wght@600&family=Nunito:wght@300&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Roboto+Flex:opsz,wght@8..144,100;8..144,300&family=Roboto:wght@400;500&display=swap"
       rel="stylesheet"
     />
@@ -67,10 +73,12 @@
     </div>
     <div class="floating-body">
       <div class="we-stand-wrapper">
-        <div class="we-stand-header"><h1>What We stand for</h1></div>
+        <div class="we-stand-header"><h1>What we stand for</h1></div>
         <div class="we-stand-info">
           <div class="block-wrapper">
-            <div class="cube"><i class="fa-solid fa-table-cells"></i></div>
+            <div class="cube">
+              <img src="./images/feat1.png" alt="pink-lines" />
+            </div>
             <div class="section-title">Responsive</div>
             <div class="section-words">
               <div class=""></div>
@@ -80,7 +88,9 @@
             </div>
           </div>
           <div class="block-wrapper">
-            <div class="square"><i class="fa-solid fa-list"></i></div>
+            <div class="square">
+              <img src="./images/feat2.png" alt="blue-lines" />
+            </div>
             <div class="section-title">Quality</div>
             <div class="section-words">
               <div class=""></div>
@@ -90,7 +100,9 @@
             </div>
           </div>
           <div class="block-wrapper">
-            <div class="lines"><i class="fa-solid fa-bars"></i></div>
+            <div class="lines">
+              <img src="./images/feat3.png" alt="green-lines" />
+            </div>
             <div class="section-title">Support</div>
             <div class="section-words">
               <div class=""></div>
@@ -105,50 +117,63 @@
         <div class="ab-hes-left">
           <div class="ab-title">About Hestia</div>
           <div class="ab-detail">
-            Need more details? Please check our full documentation for<br />
-            detailed information on how to use Hestia.
+            <p>
+              Need more details? Please check our full documentation for<br />
+              detailed information on how to use Hestia.
+            </p>
           </div>
         </div>
         <div class="ab-hes-right">
-          <!-- <img src="https://wp-themes.com/wp-content/themes/hestia/assets/img/about-content.png" alt="" class="about-images"> -->
+          <img src="./images/about-content.png" alt="" class="about-images" />
         </div>
       </div>
       <div class="blog-wrapper">
-        <div class="blog-title">Blog</div>
-        <div class="blog-block">
-          <div class="blog-link">UNCATEGORIZED</div>
-          <div class="blog-title">Worth A Thousand Words</div>
-          <div class="blog-detail">Boat.</div>
-        </div>
-        <div class="blog-block">
-          <div class="blog-link">UNCATEGORIZED</div>
-          <div class="blog-title">Elements</div>
-          <div class="blog-detail">
-            The purpose of this HTML is to help determine what default settings
-            are with CSS and to make sure that all possible HTML Elements are
-            included in this HTML so as to not miss any Read more…
+        <div class="blog-header"><h1>Blog</h1></div>
+        <div class="blog-info-wrapper">
+          <div class="blog-block">
+            <div class="blog-link-purple"><a href="#">UNCATEGORIZED</a></div>
+            <div class="blog-title">
+              <a href="#"><h4>Worth a Thousand Words</h4></a>
+            </div>
+            <div class="blog-detail">Boat.</div>
           </div>
-        </div>
-        <div class="blog-block">
-          <div class="blog-link">UNCATEGORIZED</div>
-          <div class="blog-title">More Tags</div>
-          <div class="blog-detail">More of these posts need tags</div>
+          <div class="blog-block">
+            <div class="blog-link-blue"><a href="#">UNCATEGORIZED</a></div>
+            <div class="blog-title">
+              <a href="#"><h4>Elements</h4></a>
+            </div>
+            <div class="blog-detail">
+              The purpose of this HTML is to help determine what default
+              settings are with CSS and to make sure that all possible HTML
+              Elements are included in this HTML so as to not miss any
+              <a href="/contact.html" class="read-more">Read more...</a>
+            </div>
+          </div>
+          <div class="blog-block">
+            <div class="blog-link-orange"><a href="#">UNCATEGORIZED</a></div>
+            <div class="blog-title">
+              <a href="#"><h4>More Tags</h4></a>
+            </div>
+            <div class="blog-detail">More of these posts need tags</div>
+          </div>
         </div>
       </div>
       <div class="get-in-touch">
         <div class="touch-left">
           <div class="touch-title">Get in Touch</div>
           <div class="touch-content">
-            <div class="tu-icon">9</div>
-            <div class="tu-title">Find us at the office</div>
-            <div class="tu-detail">
+            <div class="touch-icon">
+              <i class="fas fa-map-marker-alt"></i> Find us at the office
+            </div>
+            <div class="touch-detail">
               Strada Povernei, nr 20, Bucharest, Romania
             </div>
           </div>
           <div class="touch-content">
-            <div class="tu-icon">0</div>
-            <div class="tu-title">Give us a ring</div>
-            <div class="tu-detail">
+            <div class="touch-icon">
+              <i class="fas fa-mobile-alt"></i> Give us a ring
+            </div>
+            <div class="touch-detail">
               John Doe +40 712 345 678 Mon – Fri, 8:00-22:00
             </div>
           </div>
@@ -160,9 +185,9 @@
           <div class="left-content"><a href="#">PARENT PAGE</a></div>
         </div>
         <div class="hf-right">
-          <div class="right-content">Hestia |</div>
-          <div class="right-content themelsle">
-            Developed by <a href="#">Themelsle</a>
+          <div class="right-content">Hestia | Developed by</div>
+          <div class="right-content-themelsle">
+            <a href="#">Themelsle</a>
           </div>
         </div>
       </div>

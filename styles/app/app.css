@@ -16,7 +16,8 @@ a {
 .home-wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 85px 450px 500px 450px 450px 450px 100px;
+  grid-template-rows: 0.18fr 2fr;
+  height: 100%;
 }
 
 .home-navbar {
@@ -64,36 +65,106 @@ a {
 .home-navbar .hn-right button.more:hover {
   filter: blur(1px);
   transition: ease-in;
+  cursor: pointer;
 }
 
-.welcome-wrapper {
+.home-wrapper .welcome-wrapper {
   background-image: url("/images/mnts.jpeg");
   background-size: cover;
-  background-position: 25% 60%;
+  background-position: 25% 90%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   grid-area: 2/1/2/4;
 }
-.welcome-wrapper .welcome-header {
+.home-wrapper .welcome-wrapper .welcome-header {
+  font-family: "Roboto", sans-serif;
   color: white;
+  text-align: center;
+  font-size: 67px;
+  font-weight: 900;
 }
-.welcome-wrapper button.wel-button {
-  padding: 50px;
+.home-wrapper .welcome-wrapper .welcome-title {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 25px;
+  margin-bottom: 65px;
+}
+.home-wrapper .welcome-wrapper .welcome-button {
   background-color: #e91e63;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 15px 33px;
+  border: none;
+  border-radius: 5px;
+}
+.home-wrapper .welcome-wrapper .welcome-button:hover {
+  cursor: pointer;
+}
+
+.about-hestia-wrapper {
+  display: flex;
+  /* border: 1px dashed orange; */
+  /* grid-area: 4/1/4/4; */
+  width: 100%;
+  background-image: url("https://wp-themes.com/wp-content/themes/hestia/assets/img/contact.jpg");
+  background-size: cover;
+  background-position: 25% 50%;
+  color: white;
+  justify-content: space-between;
 }
 
 .we-stand-wrapper {
   display: flex;
-  border: 1px dashed orange;
-  grid-area: 4/1/4/4;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
-
-.we-stand-wrapper {
+.we-stand-wrapper .we-stand-header {
+  font-family: "Roboto", sans-serif;
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: larger;
+}
+.we-stand-wrapper .we-stand-info {
   display: flex;
-  border: 2px dashed green;
-  grid-area: 3/1/3/4;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0 100px 0;
+}
+.we-stand-wrapper .block-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.we-stand-wrapper .block-wrapper .cube {
+  color: #e91e63;
+  font-size: 50px;
+}
+.we-stand-wrapper .block-wrapper .square {
+  color: lightblue;
+  font-size: 50px;
+}
+.we-stand-wrapper .block-wrapper .lines {
+  color: green;
+  font-size: 50px;
+}
+.we-stand-wrapper .block-wrapper .section-title {
+  font-family: "Roboto Slab", "Times New Roman", serif;
+  color: #000;
+  margin: 20px 10px;
+  font-weight: 550;
+  font-size: 20px;
+}
+.we-stand-wrapper .block-wrapper .section-words {
+  color: #999;
+  font-size: 14px;
 }
 
 .blog-wrapper {

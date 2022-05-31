@@ -1,5 +1,37 @@
 .get-in-touch {
   display: flex;
-  border: 1px solid blue;
-  grid-area: 6/1/6/4;
+  width: 100.1%;
+  background-image: url("https://wp-themes.com/wp-content/themes/hestia/assets/img/contact.jpg");
+  background-size: cover;
+  background-position: 25% 50%;
+  color: white;
+  justify-content: space-between;
+}
+.get-in-touch .touch-left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 6% 0 5% 18%;
+}
+.get-in-touch .touch-left .touch-title {
+  font-family: "Roboto Slab", serif;
+  font-size: 40px;
+  padding-bottom: 5%;
+}
+.get-in-touch .touch-left .touch-content {
+  display: flex;
+  flex-direction: column;
+}
+.get-in-touch .touch-left .touch-content .touch-icon {
+  font-family: "Roboto Slab", serif;
+  font-size: large;
+  padding-bottom: 2%;
+}
+.get-in-touch .touch-left .touch-content .touch-icon .fas {
+  font-size: 35px;
+  padding-right: 0.75%;
+}
+.get-in-touch .touch-left .touch-content .touch-detail {
+  font-size: small;
+  padding-left: 4%;
 }/*# sourceMappingURL=get-in-touch.css.map */

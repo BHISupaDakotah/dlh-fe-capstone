@@ -5,6 +5,7 @@
   align-items: center;
   grid-area: 1/1/1/4;
   font-size: 12px;
+  background-color: #fff;
 }
 .home-navbar .hn-left {
   display: flex;

@@ -27,32 +27,18 @@
     align-items: center;
     margin: 10px;
 
-    .cube {
-      color: $hestia-pink;
-      font-size: 50px;
-    }
-
-    .square {
-      color: lightblue;
-      font-size: 50px;
-    }
-
-    .lines {
-      color: green;
-      font-size: 50px;
-    }
-
     .section-title {
       font-family: "Roboto Slab", "Times New Roman", serif;
       color: $hestia-black;
       margin: 20px 10px;
-      font-weight: 550;
-      font-size: 20px;
+      font-weight: 600;
+      font-size: 18px;
     }
 
     .section-words {
       color: #999;
       font-size: 14px;
+      text-align: center;
     }
   }
 }

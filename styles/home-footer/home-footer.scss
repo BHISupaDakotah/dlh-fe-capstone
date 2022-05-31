@@ -1,5 +1,46 @@
+@import "../variables/variables.scss";
+
 .home-footer {
   display: flex;
-  border: 1px dashed orange;
-  grid-area: 7/1/7/4;
+  width: 100.1%;
+  height: 100px;
+  justify-content: space-around;
+  background-color: $footer-color;
+  color: $hestia-white;
+  font-size: 13px;
+  opacity: 0.86;
+
+  a {
+    color: $hestia-white;
+    opacity: 0.86;
+    font-size: 12px;
+    padding: 15px;
+
+    &:hover {
+      color: inherit;
+      opacity: 0.8;
+      transition: ease-in 0.5em;
+    }
+  }
+
+  .hf-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .left-content {
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .hf-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .right-content-themelsle a {
+      margin-left: -8px;
+    }
+  }
 }

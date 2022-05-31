@@ -1,5 +1,38 @@
 .home-footer {
   display: flex;
-  border: 1px dashed orange;
-  grid-area: 7/1/7/4;
+  width: 100.1%;
+  height: 100px;
+  justify-content: space-around;
+  background-color: #323437;
+  color: #fff;
+  font-size: 13px;
+  opacity: 0.86;
+}
+.home-footer a {
+  color: #fff;
+  opacity: 0.86;
+  font-size: 12px;
+  padding: 15px;
+}
+.home-footer a:hover {
+  color: inherit;
+  opacity: 0.8;
+  transition: ease-in 0.5em;
+}
+.home-footer .hf-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-footer .hf-left .left-content {
+  justify-content: center;
+  align-items: center;
+}
+.home-footer .hf-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-footer .hf-right .right-content-themelsle a {
+  margin-left: -8px;
 }/*# sourceMappingURL=home-footer.css.map */
