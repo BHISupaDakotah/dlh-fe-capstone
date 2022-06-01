@@ -26,9 +26,28 @@
   }
 
   .ab-hes-right {
+    display: flex;
     height: 100%;
     width: 100%;
     justify-content: center;
     padding: 3%;
+  }
+}
+
+@media (max-width: 950px) {
+  .about-hestia-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .ab-hes-right {
+      align-items: flex-start;
+      height: 50%;
+      width: 50%;
+
+      .about-images {
+        align-items: center;
+      }
+    }
   }
 }

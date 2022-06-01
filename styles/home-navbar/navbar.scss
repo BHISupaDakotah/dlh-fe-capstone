@@ -56,3 +56,16 @@
     }
   }
 }
+
+@media (max-width: 950px) {
+  .home-navbar {
+    .hn-left {
+      justify-content: flex-start;
+      padding-left: 2%;
+    }
+
+    .hn-right {
+      justify-content: flex-start;
+    }
+  }
+}

@@ -13,34 +13,49 @@
 }
 .blog-wrapper .blog-info-wrapper {
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
   text-align: left;
-  padding: 15px 0 100px 0;
+  padding: 0px 0 50px 0;
 }
 .blog-wrapper .blog-info-wrapper .blog-block {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  width: 33%;
-  font-size: 18px;
-  padding-left: 10%;
+  width: 81%;
+  font-size: 25px;
+  padding-left: 12%;
+  padding-top: 8%;
 }
 .blog-wrapper .blog-info-wrapper .blog-block a:hover {
   opacity: 0.8;
   transition: ease-in 0.5em;
 }
-.blog-wrapper .blog-info-wrapper .blog-block .blog-link-purple a {
+.blog-wrapper .blog-info-wrapper .blog-block .blog-title {
+  padding: 12px 0;
+}
+.blog-wrapper .blog-info-wrapper .blog-block .blog-link {
+  font-weight: 900;
   font-size: 12px;
+}
+.blog-wrapper .blog-info-wrapper .blog-block .purple a {
   color: #89229b;
 }
-.blog-wrapper .blog-info-wrapper .blog-block .blog-link-blue a {
-  font-size: 12px;
+.blog-wrapper .blog-info-wrapper .blog-block .blue a {
   color: #00bcd4;
 }
-.blog-wrapper .blog-info-wrapper .blog-block .blog-link-orange a {
-  font-size: 12px;
+.blog-wrapper .blog-info-wrapper .blog-block .orange a {
   color: #f44336;
+}
+.blog-wrapper .blog-info-wrapper .blog-block .gold a {
+  color: #ff9800;
+}
+.blog-wrapper .blog-info-wrapper .blog-block .pink a {
+  color: #e91e63;
+}
+.blog-wrapper .blog-info-wrapper .blog-block .green a {
+  color: #4caf50;
 }
 .blog-wrapper .blog-info-wrapper .blog-block .blog-title a {
   font-family: "Roboto Slab", "Times New Roman", serif;
@@ -51,8 +66,22 @@
   color: #999;
   font-size: small;
 }
+.blog-wrapper .blog-info-wrapper .blog-block .blog-author {
+  padding-top: 1%;
+  font-size: 12px;
+  color: #555;
+}
 .blog-wrapper .blog-info-wrapper .blog-block .read-more {
   color: #23527c;
+}
+.blog-wrapper .blog-info-wrapper .blog-block .read-more:hover {
+  opacity: 0.8;
+  transition: ease-in 0.5em;
+  color: #e91e63;
+}
+.blog-wrapper .blog-info-wrapper .blog-block .theme-admin {
+  font-family: "Roboto Slab", "Times New Roman", serif;
+  font-size: 14px;
 }
 
 @media (max-width: 950px) {
@@ -67,4 +96,4 @@
     width: 100%;
     padding-top: 3%;
   }
-}/*# sourceMappingURL=blog.css.map */
+}/*# sourceMappingURL=bp-body.css.map */

@@ -35,4 +35,10 @@
 }
 .home-footer .hf-right .right-content-themelsle a {
   margin-left: -8px;
+}
+
+@media (max-width: 950px) {
+  .home-footer {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=home-footer.css.map */

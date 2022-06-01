@@ -45,4 +45,14 @@
   filter: blur(1px);
   transition: ease-in;
   cursor: pointer;
+}
+
+@media (max-width: 950px) {
+  .home-navbar .hn-left {
+    justify-content: flex-start;
+    padding-left: 2%;
+  }
+  .home-navbar .hn-right {
+    justify-content: flex-start;
+  }
 }/*# sourceMappingURL=navbar.css.map */
