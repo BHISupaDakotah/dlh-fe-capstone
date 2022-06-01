@@ -397,7 +397,7 @@ a {
   transition: ease-in 0.5em;
 }
 .blog-wrapper .blog-info-wrapper .blog-block .blog-title {
-  padding: 10px 0;
+  padding: 12px 0;
 }
 .blog-wrapper .blog-info-wrapper .blog-block .blog-link {
   font-weight: 900;
@@ -461,6 +461,12 @@ a {
     padding-top: 3%;
   }
 }
+.home-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 0.18fr 1fr;
+  height: 50%;
+}
 .home-wrapper .welcome-wrapper {
   background: linear-gradient(45deg, rgb(168, 29, 132) 0%, rgb(234, 57, 111) 100%);
   width: 100%;
@@ -474,25 +480,28 @@ a {
   font-family: "Roboto", sans-serif;
   color: white;
   text-align: center;
-  font-size: 67px;
+  font-size: 41px;
   font-weight: 900;
+  padding-bottom: 5%;
 }
-.home-wrapper .welcome-wrapper .welcome-title {
-  color: white;
-  font-size: 18px;
-  font-weight: 500;
-  margin-top: 25px;
-  margin-bottom: 65px;
+
+.content-body-page {
+  display: flex;
+  width: 100%;
+  border: 1px solid red;
+  justify-content: space-between;
 }
-.home-wrapper .welcome-wrapper .welcome-button {
-  background-color: #e91e63;
-  color: #fff;
-  font-size: 12px;
-  font-weight: 400;
-  padding: 15px 33px;
-  border: none;
-  border-radius: 5px;
+.content-body-page .cb-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
-.home-wrapper .welcome-wrapper .welcome-button:hover {
-  cursor: pointer;
+.content-body-page .cb-right {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  padding: 3%;
 }/*# sourceMappingURL=app.css.map */

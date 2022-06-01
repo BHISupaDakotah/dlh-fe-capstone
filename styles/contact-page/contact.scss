@@ -1,0 +1,108 @@
+@import "../variables/variables.scss";
+
+.content-body-page {
+  background-color: $hestia-white;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 3% 0;
+
+  .cb-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 55%;
+    padding-left: 18%;
+
+    .cbl-header {
+      font-family: $hestia-header;
+      font-size: 40px;
+    }
+
+    .user-info {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .user-name {
+      width: 35vw;
+      height: 35px;
+      margin: 3% 0;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom: 1px solid $hestia-light;
+      color: $hestia-black;
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    .submit {
+      height: 50px;
+      width: 100px;
+      justify-content: center;
+      background-color: $hestia-pink;
+      color: $hestia-white;
+      border: transparent;
+      border-radius: 5px;
+
+      &:hover {
+        filter: blur(1px);
+        box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.1);
+        transition: ease-in;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .cb-right {
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    width: 45%;
+    padding: 3%;
+
+    img {
+      height: 25px;
+      width: 25px;
+    }
+
+    .cb-header {
+      font-family: "Roboto Slab", "Times New Roman", serif;
+      padding: 10px 5px;
+      align-items: center;
+      padding-top: 5%;
+    }
+
+    .cb-detail {
+      color: $hestia-light;
+      font-size: small;
+      line-height: 23px;
+    }
+  }
+}
+
+@media (max-width: 950px) {
+  .content-body-page {
+    flex-direction: column;
+
+    .cb-left {
+      width: 100%;
+      padding: 0;
+      align-items: center;
+
+      .user-name {
+        width: 50vw;
+      }
+    }
+
+    .cb-right {
+      padding-top: 5%;
+      width: 100%;
+      align-items: center;
+    }
+  }
+}

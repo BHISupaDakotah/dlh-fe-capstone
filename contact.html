@@ -1,11 +1,89 @@
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hestia - WordPress Theme</title>
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Dancing+Script:wght@600&family=Nunito:wght@300&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Roboto+Flex:opsz,wght@8..144,100;8..144,300&family=Roboto+Slab&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet"
+      />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Dancing+Script:wght@600&family=Nunito:wght@300&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Roboto+Flex:opsz,wght@8..144,100;8..144,300&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet"
+      />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Dancing+Script:wght@600&family=Nunito:wght@300&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Roboto&family=Roboto+Flex:opsz,wght@8..144,100;8..144,300&display=swap"
+        rel="stylesheet"
+      />
+      <!-- <link rel="stylesheet" href="./styles/app/app.css" /> -->
+      <link rel="stylesheet" href="./styles/home-wrapper/home-wrapper.css" />
+      <link rel="stylesheet" href="./styles/home-navbar/navbar.css" />
+      <link rel="stylesheet" href="./styles/contact-page/contact.css">
+      <link rel="stylesheet" href="./styles/home-footer/home-footer.css" />
+      <title>Hestia - WordPress Theme</title>
   </head>
   <body>
-    <h1>hello from content</h1>
+    
+    <div class="home-navbar">
+      <div class="hn-left">
+        <div class="hestia"><a href="#">Hestia</a></div>
+      </div>
+      <div class="hn-right">
+        <div class="hn-right-item"><a href="./index.html">HOME</a></div>
+        <div class="hn-right-item">
+          <a href="/blog.html">BLOG</a>
+        </div>
+        <div class="hn-right-item">
+          <a href="/contact.html">CONTACT</a>
+        </div>
+        <button class="more">MORE</button>
+      </div>
+    </div>
+    <iframe src="https://maps.google.com/maps?width=100%25&height=400&hl=en&q=povernei%2020+(My%20Business%20Name)&t=&z=14&ie=UTF8&iwloc=B&output=embed" width="100%" height="400" frameborder="0"></iframe>
+    <div class="content-body-page">
+      <div class="cb-left">
+        <h1 class="cbl-header">Send us a message</h1>
+        <div class="user-info">
+          <input type="text" class="user-name" name="fname" placeholder="Your first name..">
+          <input type="text" class="user-name" name="lname" placeholder="Your last name..">
+          <input type="text" class="user-name" name="body" style="height:200px;" placeholder="Write something..">
+          <button type="submit" class="submit" value="submit">Submit</button>
+        </div>
+      </div>
+      <div class="cb-right">
+          <div class="cb-header"><img src="./images/contact1.png" alt="pink map"> Find us at the office</div>
+          <div class="cb-detail">Strada Povernei, nr 20<br/>Bucharest<br/>Romania</div>
+          <div class="cb-header"><img src="./images/contact2.png" alt="pink phone"> Give us a ring</div>
+          <div class="cb-detail">John Doe<br/>+40 712 345 678<br/>Mon – Fri, 8:00-22:00</div>
+          <div class="cb-header"><img src="./images/contact3.png" alt="pink briefcase"> Legal Information</div>
+          <div class="cb-detail">John Doe Co.<br/>Fiscal Code: 12345678</div>
+      </div>
+    </div>
+    <div class="home-footer">
+      <div class="hf-left">
+        <div class="left-content"><a href="#">ABOUT</a></div>
+        <div class="left-content"><a href="#">PARENT PAGE</a></div>
+      </div>
+      <div class="hf-right">
+        <div class="right-content">Hestia | Developed by</div>
+        <div class="right-content-themelsle">
+          <a href="#">Themelsle</a>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
