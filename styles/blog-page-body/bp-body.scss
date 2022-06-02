@@ -78,7 +78,7 @@
 
       .blog-detail {
         word-wrap: break-word;
-        color: #999;
+        color: $hestia-light;
         font-size: small;
       }
 
@@ -117,6 +117,7 @@
     .blog-block {
       width: 100%;
       padding-top: 3%;
+      padding-right: 5%;
     }
   }
 }

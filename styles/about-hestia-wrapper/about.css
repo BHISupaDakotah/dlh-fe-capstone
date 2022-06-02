@@ -37,10 +37,10 @@
   }
   .about-hestia-wrapper .ab-hes-right {
     align-items: flex-start;
-    height: 50%;
-    width: 50%;
   }
   .about-hestia-wrapper .ab-hes-right .about-images {
     align-items: center;
+    height: 90%;
+    width: 90%;
   }
 }/*# sourceMappingURL=about.css.map */

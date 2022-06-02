@@ -34,4 +34,10 @@
 }
 .home-wrapper .welcome-wrapper .welcome-button:hover {
   cursor: pointer;
+}
+
+@media (max-width: 750px) {
+  .home-wrapper .welcome-wrapper .welcome-header {
+    font-size: 50px;
+  }
 }/*# sourceMappingURL=welcome.css.map */

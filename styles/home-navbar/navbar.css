@@ -43,11 +43,11 @@
   color: #e91e63;
 }
 .home-navbar .hn-right .more a {
-  font-size: 12px;
+  font-size: 11px;
   color: #fff;
   border: transparent;
   background-color: #e91e63;
-  padding: 18px 25px;
+  padding: 18px 23px;
   border-radius: 25px;
 }
 .home-navbar .hn-right .more a:hover {
@@ -68,6 +68,9 @@
   .home-navbar .hn-right .hn-right-item {
     display: none;
     justify-content: center;
+  }
+  .home-navbar .hn-right .more {
+    display: none;
   }
   .home-navbar .hn-right .nav-icon {
     display: flex;

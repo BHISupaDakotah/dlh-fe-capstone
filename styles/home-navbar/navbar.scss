@@ -50,11 +50,11 @@
       }
     }
     .more a {
-      font-size: 12px;
+      font-size: 11px;
       color: $hestia-white;
       border: transparent;
       background-color: $hestia-pink;
-      padding: 18px 25px;
+      padding: 18px 23px;
       border-radius: 25px;
 
       &:hover {
@@ -80,6 +80,10 @@
       .hn-right-item {
         display: none;
         justify-content: center;
+      }
+
+      .more {
+        display: none;
       }
       .nav-icon {
         display: flex;
