@@ -1,4 +1,9 @@
 .home-navbar {
+  position: fixed;
+  top: 0;
+  width: 110%;
+  height: 50px;
+  z-index: 3;
   color: black;
   display: flex;
   justify-content: space-between;
@@ -28,32 +33,51 @@
   justify-content: center;
   align-items: center;
 }
+.home-navbar .hn-right .nav-icon {
+  display: none;
+}
 .home-navbar .hn-right .hn-right-item a {
   padding: 10px 20px;
 }
 .home-navbar .hn-right .hn-right-item a:hover {
   color: #e91e63;
 }
-.home-navbar .hn-right button.more {
+.home-navbar .hn-right .more a {
   font-size: 12px;
-  color: white;
+  color: #fff;
   border: transparent;
   background-color: #e91e63;
   padding: 18px 25px;
   border-radius: 25px;
 }
-.home-navbar .hn-right button.more:hover {
+.home-navbar .hn-right .more a:hover {
   filter: blur(1px);
   transition: ease-in;
   cursor: pointer;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 750px) {
   .home-navbar .hn-left {
     justify-content: flex-start;
-    padding-left: 2%;
+    padding-left: 10%;
   }
   .home-navbar .hn-right {
-    justify-content: flex-start;
+    justify-content: flex-end;
+    padding-right: 5vw;
+  }
+  .home-navbar .hn-right .hn-right-item {
+    display: none;
+    justify-content: center;
+  }
+  .home-navbar .hn-right .nav-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: #999;
+    padding-right: 7vw;
+  }
+  .home-navbar .hn-right .nav-icon:hover {
+    color: #e91e63;
   }
 }/*# sourceMappingURL=navbar.css.map */

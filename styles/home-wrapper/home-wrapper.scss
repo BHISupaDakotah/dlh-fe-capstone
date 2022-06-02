@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body {
   height: 100%;
@@ -16,6 +20,7 @@ a {
 .home-wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 0.18fr 2fr;
+  grid-template-rows: 0.18fr 2.1fr;
   height: 100%;
+  margin: -50px;
 }
